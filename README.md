@@ -2,6 +2,13 @@
 
 Your clipboard, supercharged for applications. One-click copy for LinkedIn, GitHub, portfolio, and more — right on the page where you're applying.
 
+## Install
+
+**Chrome Web Store** — *Pending approval*
+
+<!-- Update with the live link once approved -->
+<!-- [Install from the Chrome Web Store](https://chrome.google.com/webstore/detail/applykit/YOUR_EXTENSION_ID) -->
+
 ## Features
 
 - **One-click copy buttons** — floating sidebar with quick-copy for LinkedIn, GitHub, portfolio, email, phone, and custom fields
