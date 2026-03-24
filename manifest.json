@@ -1,0 +1,34 @@
+{
+    "manifest_version": 3,
+    "name": "ApplyKit",
+    "description": "Your clipboard, supercharged for applications. One-click copy for LinkedIn, GitHub, portfolio, and more.",
+    "version": "2.0.0",
+    "permissions": ["clipboardWrite", "storage"],
+    "options_ui": {
+        "page": "src/options/index.html",
+        "open_in_tab": true
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.linkedin.com/*",
+                "*://*.indeed.com/*",
+                "*://*.greenhouse.io/*",
+                "*://*.lever.co/*",
+                "*://*.myworkdayjobs.com/*",
+                "*://*.bamboohr.com/*",
+                "*://*.gusto.com/*",
+                "*://*.ashbyhq.com/*",
+                "*://*.workforcenow.adp.com/*",
+                "*://*.paylocity.com/*"
+            ],
+            "js": ["src/content/index.tsx"],
+            "css": []
+        }
+    ],
+    "icons": {
+        "16": "src/assets/icon16.png",
+        "48": "src/assets/icon48.png",
+        "128": "src/assets/icon128.png"
+    }
+}
