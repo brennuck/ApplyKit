@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ApplyKit — Stop typing. Start applying.</title>
+  <meta name="description" content="The Chrome extension that fills in your job applications so you don't have to. One click. Every field. Every time." />
+  <link rel="icon" href="../src/assets/icon48.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <img src="../src/assets/icon128.png" alt="ApplyKit" class="nav-logo-img" />
+        <span>ApplyKit</span>
+      </a>
+      <a href="#install" class="nav-cta">Add to Chrome</a>
+    </div>
+  </nav>
+
+  <!-- HERO — big, typographic, no stock imagery -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">Chrome Extension</p>
+      <h1 class="hero-headline">
+        You've typed your email<br/>
+        into a job app<br/>
+        <span class="hero-counter" id="counter">1,247</span> times.
+      </h1>
+      <p class="hero-sub">That's enough. Let ApplyKit handle it.</p>
+      <a href="#install" class="hero-cta">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Install free — 2 seconds
+      </a>
+    </div>
+  </section>
+
+  <!-- THE PROBLEM — scrolling "pain" ticker -->
+  <section class="ticker-section">
+    <div class="ticker-track">
+      <div class="ticker-content">
+        <span>copy email</span><span class="ticker-dot"></span>
+        <span>paste email</span><span class="ticker-dot"></span>
+        <span>copy phone</span><span class="ticker-dot"></span>
+        <span>paste phone</span><span class="ticker-dot"></span>
+        <span>copy linkedin</span><span class="ticker-dot"></span>
+        <span>paste linkedin</span><span class="ticker-dot"></span>
+        <span>copy github</span><span class="ticker-dot"></span>
+        <span>paste github</span><span class="ticker-dot"></span>
+        <span>copy name</span><span class="ticker-dot"></span>
+        <span>paste name</span><span class="ticker-dot"></span>
+        <span>upload resume</span><span class="ticker-dot"></span>
+        <span>again</span><span class="ticker-dot"></span>
+        <span>and again</span><span class="ticker-dot"></span>
+        <span>and again</span><span class="ticker-dot"></span>
+        <!-- duplicate for seamless loop -->
+        <span>copy email</span><span class="ticker-dot"></span>
+        <span>paste email</span><span class="ticker-dot"></span>
+        <span>copy phone</span><span class="ticker-dot"></span>
+        <span>paste phone</span><span class="ticker-dot"></span>
+        <span>copy linkedin</span><span class="ticker-dot"></span>
+        <span>paste linkedin</span><span class="ticker-dot"></span>
+        <span>copy github</span><span class="ticker-dot"></span>
+        <span>paste github</span><span class="ticker-dot"></span>
+        <span>copy name</span><span class="ticker-dot"></span>
+        <span>paste name</span><span class="ticker-dot"></span>
+        <span>upload resume</span><span class="ticker-dot"></span>
+        <span>again</span><span class="ticker-dot"></span>
+        <span>and again</span><span class="ticker-dot"></span>
+        <span>and again</span><span class="ticker-dot"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS — stacked cards, not a 3-col grid -->
+  <section class="how">
+    <div class="how-inner">
+      <h2 class="section-heading">Here's the whole product.</h2>
+      <div class="steps">
+
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <div class="step-body">
+            <h3>Set your info once</h3>
+            <p>Name, email, phone, LinkedIn, GitHub, portfolio — whatever you paste into apps. Save it. Done.</p>
+          </div>
+          <div class="step-visual">
+            <div class="mock-field"><span class="mock-label">LinkedIn</span><span class="mock-value">linkedin.com/in/you</span></div>
+            <div class="mock-field"><span class="mock-label">Email</span><span class="mock-value">you@email.com</span></div>
+            <div class="mock-field"><span class="mock-label">Phone</span><span class="mock-value">(555) 123-4567</span></div>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <div class="step-body">
+            <h3>Visit any job site</h3>
+            <p>Buttons appear on the left side of the page. Click one — it's on your clipboard. Or turn on auto-fill and watch the inputs fill themselves.</p>
+          </div>
+          <div class="step-visual">
+            <div class="mock-buttons">
+              <div class="mock-btn" style="background:#0A66C2;">in</div>
+              <div class="mock-btn" style="background:#24292f;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </div>
+              <div class="mock-btn" style="background:#f43f5e;">@</div>
+              <div class="mock-btn" style="background:#10b981;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="mock-btn" style="background:#f59e0b;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <div class="step-body">
+            <h3>That's it. There is no step 3.</h3>
+            <p>No account. No login. No cloud. Your data stays in your browser. We literally cannot see it.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SITES — logo-less, just names -->
+  <section class="sites">
+    <div class="sites-inner">
+      <h2 class="section-heading">Works everywhere you apply.</h2>
+      <div class="site-grid">
+        <div class="site-chip">LinkedIn</div>
+        <div class="site-chip">Indeed</div>
+        <div class="site-chip">Greenhouse</div>
+        <div class="site-chip">Lever</div>
+        <div class="site-chip">Workday</div>
+        <div class="site-chip">BambooHR</div>
+        <div class="site-chip">Gusto</div>
+        <div class="site-chip">Ashby</div>
+        <div class="site-chip">ADP</div>
+        <div class="site-chip">Paylocity</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BEFORE / AFTER — side by side contrast -->
+  <section class="contrast">
+    <div class="contrast-inner">
+      <div class="contrast-col contrast-before">
+        <h3>Before ApplyKit</h3>
+        <ul>
+          <li><span class="strike">Open notes app</span></li>
+          <li><span class="strike">Find your LinkedIn URL</span></li>
+          <li><span class="strike">Copy it</span></li>
+          <li><span class="strike">Switch back to the tab</span></li>
+          <li><span class="strike">Find the right field</span></li>
+          <li><span class="strike">Paste it</span></li>
+          <li><span class="strike">Repeat for 6 more fields</span></li>
+          <li><span class="strike">Do it all again on the next app</span></li>
+        </ul>
+      </div>
+      <div class="contrast-col contrast-after">
+        <h3>After ApplyKit</h3>
+        <ul>
+          <li>Click.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final" id="install">
+    <div class="final-inner">
+      <h2>Stop copying and pasting<br/>like it's 2005.</h2>
+      <p>Free. No account. Installs in 2 seconds.</p>
+      <a href="#" class="final-cta">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4"/><path d="M21.17 8H12V2.05" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3.95 6.06L12 12" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 21.17L12 12" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        Add to Chrome — it's free
+      </a>
+      <p class="final-note">Pending Chrome Web Store approval</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-brand">ApplyKit</span>
+      <span class="footer-links">
+        <a href="https://github.com/your-username/applykit" target="_blank">GitHub</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
