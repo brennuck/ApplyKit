@@ -20,7 +20,8 @@
                 "*://*.gusto.com/*",
                 "*://*.ashbyhq.com/*",
                 "*://*.workforcenow.adp.com/*",
-                "*://*.paylocity.com/*"
+                "*://*.paylocity.com/*",
+                "*://*.gem.com/*"
             ],
             "js": ["src/content/index.tsx"],
             "css": []

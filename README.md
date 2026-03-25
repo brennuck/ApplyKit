@@ -30,6 +30,7 @@ Your clipboard, supercharged for applications. One-click copy for LinkedIn, GitH
 - Ashby
 - ADP Workforce Now
 - Paylocity
+- Gem
 
 ## Development
 
