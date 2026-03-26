@@ -31,6 +31,7 @@ Your clipboard, supercharged for applications. One-click copy for LinkedIn, GitH
 - ADP Workforce Now
 - Paylocity
 - Gem
+- Oracle Cloud
 
 ## Development
 

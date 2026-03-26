@@ -21,7 +21,8 @@
                 "*://*.ashbyhq.com/*",
                 "*://*.workforcenow.adp.com/*",
                 "*://*.paylocity.com/*",
-                "*://*.gem.com/*"
+                "*://*.gem.com/*",
+                "*://*.oraclecloud.com/*"
             ],
             "js": ["src/content/index.tsx"],
             "css": []
