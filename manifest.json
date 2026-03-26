@@ -22,7 +22,9 @@
                 "*://*.workforcenow.adp.com/*",
                 "*://*.paylocity.com/*",
                 "*://*.gem.com/*",
-                "*://*.oraclecloud.com/*"
+                "*://*.oraclecloud.com/*",
+                "*://*.breezy.hr/*",
+                "*://*.workable.com/*"
             ],
             "js": ["src/content/index.tsx"],
             "css": []

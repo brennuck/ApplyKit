@@ -32,6 +32,8 @@ Your clipboard, supercharged for applications. One-click copy for LinkedIn, GitH
 - Paylocity
 - Gem
 - Oracle Cloud
+- Breezy HR
+- Workable
 
 ## Development
 
