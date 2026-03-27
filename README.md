@@ -34,6 +34,7 @@ Your clipboard, supercharged for applications. One-click copy for LinkedIn, GitH
 - Oracle Cloud
 - Breezy HR
 - Workable
+- iCIMS
 
 ## Development
 

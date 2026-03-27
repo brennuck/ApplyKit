@@ -24,7 +24,8 @@
                 "*://*.gem.com/*",
                 "*://*.oraclecloud.com/*",
                 "*://*.breezy.hr/*",
-                "*://*.workable.com/*"
+                "*://*.workable.com/*",
+                "*://*.icims.com/*"
             ],
             "js": ["src/content/index.tsx"],
             "css": []
