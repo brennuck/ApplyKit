@@ -4,10 +4,7 @@ Your clipboard, supercharged for applications. One-click copy for LinkedIn, GitH
 
 ## Install
 
-**Chrome Web Store** — *Pending approval*
-
-<!-- Update with the live link once approved -->
-<!-- [Install from the Chrome Web Store](https://chrome.google.com/webstore/detail/applykit/YOUR_EXTENSION_ID) -->
+[Install from the Chrome Web Store](https://chromewebstore.google.com/detail/applykit/eclfbcngjbijopjkkcfjblhoignkkadi)
 
 ## Features
 
